@@ -1,4 +1,7 @@
-# [ECO](https://eco.com/) take home exercise 
+# [ECO](https://eco.com/) – Smart Contract Engineer assessment
+
+### Context 
+- https://github.com/ScooterHelmet/musical-chairs/blob/master/Eco_Take_Home_Exercise.pdf
 
 ### My assumptions for this assessment
 - OpenZeppelin "know-how" is trivial here
