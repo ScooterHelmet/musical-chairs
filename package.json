@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.3.0",
+    "ethereum-waffle": "^3.2.2",
+    "ethers": "^5.0.29",
+    "mocha": "^8.2.1"
+  },
+  "name": "musicalchairs",
+  "description": "a game of games",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "compile": "npx waffle waffle.json",
+    "migrate": "truffle migrate --network development",
+    "test": "export NODE_ENV=test && mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
